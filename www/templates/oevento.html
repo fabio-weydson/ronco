@@ -1,5 +1,15 @@
 <ion-view view-title="RONCO DO MAR">
-  <ion-content>
-    <h1>RONCO DO MAR</h1>
+  <ion-content id="oevento" has-bouncing="false"> 
+    <div class="padding">
+    <h2>RONCO DO MAR</h2>
+    <p>A opção ideal para desconectar da rotina e vivenciar uma experiência única.
+        #VemViverOLadoBomDaVida
+      </p>
+     
+      <p>Toda Sexta-feira das 19:30 às 1:30. Barraca Marulho.</p>
+    </div>
+      <div class="thumb" ng-repeat="foto in fotos"><img ng-src="fotos/{{foto}}.jpg"/></div>
+      <p class="text-center center"><a href="https://www.instagram.com/roncodomar/" target="_blank"><img src="img/insta-btn.png"></a></p>
   </ion-content>
+
 </ion-view>

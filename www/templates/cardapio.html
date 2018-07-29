@@ -1,5 +1,25 @@
 <ion-view view-title="Cardápio">
-  <ion-content>
-    <h1>Cardápio</h1>
-  </ion-content>
+  <ion-content id="cardapio" has-bouncing="false" >
+    <ion-list class="cardapio item-animate" id="cardapio1" ng-show="visivel">
+        <ion-item>
+          <img src="../img/menuA_1.jpg" width="100%">
+        </ion-item>
+        <ion-item>
+            <img src="../img/menuA_2.jpg" width="100%">
+        </ion-item>
+      </ion-list>
+      <ion-list class="cardapio item-animate" id="cardapio2" ng-show="!visivel">
+          <ion-item>
+            <img src="../img/menuB_1.jpg" width="100%">
+          </ion-item>
+          <ion-item>
+            <img src="../img/menuB_2.jpg" width="100%">
+          </ion-item>
+      </ion-list>
+    
+    </ion-content>
+    <div class="cardapio-botoes">
+        <button class="button button-light" ng-click="ativa()" ng-class="{true: 'active', false: 'inactive'}[visivel]">COMIDAS</button>
+        <button class="button button-light" ng-click="ativa()" ng-class="{true: 'inactive', false: 'active'}[visivel]">BEBIDAS</button>
+      </div>
 </ion-view>

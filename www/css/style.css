@@ -1,1 +1,32 @@
 /* Empty. Add your own CSS if you like */
+
+.menuleft {
+    background: url("../img/bg.jpg") !important;
+}
+.menuleft .item {
+    background:transparent !important;
+    border: none;
+    color:#FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.menuleft .item-content {
+    background:transparent !important;
+}
+.menuleft img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+
+}
+.bar.bar-stable {
+    background:#c62321;
+    text-transform: uppercase;
+}
+.bar.bar-stable .title {
+    color: #FFF;
+}
+.bar-stable .button.button-clear {
+    color: #FFF;
+}

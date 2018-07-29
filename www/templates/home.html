@@ -1,16 +1,11 @@
-<ion-view view-title="O QUE HÁ DE NOVO">
+<ion-view view-title="NOVIDADES">
   <ion-content>
     <div class="list card list-inset" ng-repeat="item in items">
-
         <div class="item item-body">
           <img class="full-image" ng-src="{{item.src}}"/>
-          <p ng-bind-html="item.title">
-          </p>
-          <p>
-            <a href="#" class="subdued">Publicado em <span>{{item.data}}</span></a>
-          </p>
+          <p ng-bind-html="item.title"></p>
+          <p><a href="#" class="subdued">Publicado em <span>{{item.data}}</span></a></p>
         </div>
-      
       </div>
   </ion-content>
 </ion-view>

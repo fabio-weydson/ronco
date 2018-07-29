@@ -3,7 +3,6 @@
     <ion-nav-bar class="bar-stable">
       <ion-nav-back-button>
       </ion-nav-back-button>
-
       <ion-nav-buttons side="left">
         <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
         </button>
@@ -11,18 +10,20 @@
     </ion-nav-bar>
     <ion-nav-view name="menuContent"></ion-nav-view>
   </ion-side-menu-content>
-
   <ion-side-menu side="left"  class="menuleft">
     <ion-content>
         <img src="img/logo.png">
-      <ion-list>
-        <ion-item menu-close href="#/app/oevento">
-          O EVENTO
-        </ion-item>
-        <ion-item menu-close href="#/app/cardapio">
-          CARDÁPIO
-        </ion-item>
-      </ion-list>
+        <ion-list>
+          <ion-item menu-close href="#/app/home">
+            NOVIDADES
+          </ion-item>
+          <ion-item menu-close href="#/app/oevento">
+            O EVENTO
+          </ion-item>
+          <ion-item menu-close href="#/app/cardapio">
+            CARDÁPIO
+          </ion-item>
+        </ion-list>
     </ion-content>
   </ion-side-menu>
 </ion-side-menus>
